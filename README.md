@@ -1,54 +1,49 @@
 # BellaBeat Case Study using Python
 
 1. Project Title:
-   Retail Sales Insights Dashboard: Data-Driven Decision Making in Excel
-   A comprehensive Excel dashboard built on SQL and Python-driven analysis to uncover retail sales patterns, customer behavior, and revenue insights.
+   Bellabeat Wellness Insights: Smart Device Usage Analysis with Python
+   An end-to-end Python-based project analyzing Fitbit-derived wellness data to uncover user behavior, activity levels, and health patterns for Bellabeat’s marketing strategy.
      
 2. Purpose of the project:
-   The Retail Sales Insights Dashboard transforms raw transactional data into actionable insights. Combining SQL, Python, and Excel, it enables stakeholders to explore sales by product, store, and time, while visualizing         trends for better business decision-making.
+   The project explores Fitbit fitness tracker data to understand how users engage with smart devices. The goal is to generate insights into activity, sleep, and calorie-burning behaviors that help Bellabeat shape data-         driven marketing strategies and product decisions.
 
 3. Tech Stack:
-   The dashboard was built using the following tools and technologies:
-   ✔ SQL – Database design, data storage, and cleaning with DDL and queries.
-   ✔ Python (Pandas, Matplotlib, Seaborn) – Data transformation, trend analysis, and visualizations.
-   ✔ MS Excel – Final reporting and dashboard development.
-   ✔ Power Query (Excel) – Data preparation and integration.
-   ✔ CSV Dataset (Kaggle) – Primary data source for transactions.
+   The project was built using the following tools and technologies:
+   ✔ Python (Pandas, NumPy) – Data import, wrangling, and transformations
+   ✔ Matplotlib & Seaborn – Visualizations and statistical plots
+   ✔ Jupyter / Kaggle Notebook – Coding environment for reproducible workflows
+   ✔ CSV Dataset (Fitbit) – Source of raw user activity data
 
-4. Data Source: Kaggle – Retail Transaction Data
+4. Data Source: Fitbit Fitness Tracker Data (Kaggle – Survey via Amazon Mechanical Turk, 2016)
+   ✔ Rows/Columns: 940 rows × 15 columns (daily activity data)
    Dataset fields include:
-   ✔ TransactionID (unique identifier)
-   ✔ TransactionTime (time of purchase)
-   ✔ ItemCode & ItemDescription (product details)
-   ✔ NumberOfItemsPurchased
-   ✔ CostPerItem
-   ✔ Country (location of transaction)
-     Additional calculated fields such as total sales value and month/year fields were generated for trend analysis.
+   ✔ User ID
+   ✔ Activity Date
+   ✔ Total Steps
+   ✔ Total Distance & Tracker Distance
+   ✔ Very Active / Moderately Active / Lightly Active / Sedentary Minutes
+   ✔ Calories Burned
+      Covers 33 users over a 1-month period (April–May 2016).
   
 5. Features / Highlights:
-   ✔ Business Problem: Retailers need a streamlined way to track performance, customer behavior, and sales trends across multiple products, stores, and regions. Manual analysis is time-consuming and prone to errors.
-   ✔ Goal of the Dashboard:
-      To deliver an end-to-end data solution that:
-        ➡ Cleans and organizes raw retail data.
-        ➡ Provides descriptive and advanced analysis (time series, cohort, segmentation).
-        ➡ Presents insights through interactive Excel dashboards for strategic decision-making.
+   ✔ Business Problem: Bellabeat wants to understand user engagement with wellness devices to design marketing strategies and promote its smart products more effectively.
+   ✔ Goal of the Project:
+        ➡ Prepare, clean, and analyze Fitbit user activity data
+        ➡ Categorize users into Sedentary, Active, Very Active groups
+        ➡ Visualize wellness behavior (steps, calories, activity minutes, day-of-week patterns)
+        ➡ Provide actionable insights for marketing and product positioning
    
    ✔ Walkthrough of Key Visuals:
-      ➡ Tabular Reports (Excel): Sales by product, store, and month.
-      ➡ Sales Trends (Line & Bar Charts): Seasonal and yearly sales performance.
-      ➡ Top Products & Stores (Tables/Charts): Identifies high-performing items and outlets.
-      ➡ Customer Segmentation (Visuals): Cohort analysis to understand purchase behavior.
-      ➡ Interactive Filters: Enable users to slice reports by time, product, or geography.
+      ➡ Scatter Plot (Steps vs Calories): Shows positive correlation between daily steps and calories burned, with user activity-level segmentation.
+      ➡ Bar Chart (Average Steps by Day of Week): Reveals activity patterns; Wednesday and Saturday are most active, Thursday/Friday least active.
+      ➡ Pie Chart (Activity Minutes %): 81% sedentary, 16% lightly active, 2% fairly active, 2% very active.
+      ➡ Multi-Plot (Minutes vs Calories by Activity Level): Compares sedentary, lightly active, fairly active, and very active minutes with calorie burn, showing stronger correlations for active users.
 
    ✔ Business Impact & Insights:
-      ➡ Performance Tracking: Provides managers a clear view of KPIs (sales, customers, revenue).
-      ➡ Store Optimization: Identifies top-performing and underperforming outlets.
-      ➡ Customer Behavior: Cohort analysis reveals retention and purchase frequency trends.
-      ➡ Customer Behavior: Cohort analysis reveals retention and purchase frequency trends. 
-      ➡ Forecasting Potential: Time series insights guide future sales strategies.
-      ➡ Data-Driven Decisions: Enables evidence-based marketing, inventory, and sales planning.
+      ➡ User Segmentation: Categorized into Sedentary (<6k steps), Active (6k–12k steps), Very Active (>12k steps).
+      ➡ Marketing Strategy: Personalize campaigns by targeting active users differently from sedentary ones.
+      ➡ Engagement Patterns: Device usage >16 hrs/day doesn’t guarantee high activity, highlighting opportunity for motivational nudges.
+      ➡ Behavioral Insights: Users are less active on Thursdays/Fridays; potential for targeted interventions.
+      ➡ Health Engagement: Majority of users are sedentary, suggesting opportunities to push wellness goals and app reminders.
    
- 6. Screenshot:
-    Show what the dashboard looks like: <img width="1352" height="527" alt="Screenshot (70)" src="https://github.com/user-attachments/assets/ddb3bbaf-4927-40f7-8437-ce6282a3d926" />
-
 
