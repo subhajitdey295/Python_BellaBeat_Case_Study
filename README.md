@@ -1,7 +1,5 @@
 # BellaBeat Case Study using Python
 
-![Web_Photo_Editor](https://github.com/user-attachments/assets/3058212a-bb44-4e21-88ef-23a1b4598218)
-
 ➡️ View the Full Business Report (PDF): [Bellabeat Wellness Insights Analysis.pdf](https://github.com/user-attachments/files/24570207/Bellabeat.Wellness.Insights.Analysis.pdf)
 
 1. Project Title:
