@@ -1,5 +1,9 @@
 # BellaBeat Case Study using Python
 
+![Web_Photo_Editor](https://github.com/user-attachments/assets/3058212a-bb44-4e21-88ef-23a1b4598218)
+
+➡️ View the Full Business Report (PDF): [Bellabeat Wellness Insights Analysis.pdf](https://github.com/user-attachments/files/24569374/Bellabeat.Wellness.Insights.Analysis.pdf)
+
 1. Project Title:
    Bellabeat Wellness Insights: Smart Device Usage Analysis with Python
    An end-to-end Python-based project analyzing Fitbit-derived wellness data to uncover user behavior, activity levels, and health patterns for Bellabeat’s marketing strategy.
